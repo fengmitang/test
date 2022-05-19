@@ -40,7 +40,12 @@ module.exports = {
   },
   module: {
     rules: [
+<<<<<<< HEAD
       ...(config.dev.useEslint ? [createLintingRule()] : []),
+=======
+      // 注释下一行代码是为了解决启动VUE时的warning问题
+      // ...(config.dev.useEslint ? [createLintingRule()] : []),
+>>>>>>> e8f2747... featrue commit
       {
         test: /\.vue$/,
         loader: 'vue-loader',

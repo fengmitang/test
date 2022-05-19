@@ -1,6 +1,9 @@
 <template>
   <div id="app">
+<<<<<<< HEAD
     <img src="./assets/logo.png">
+=======
+>>>>>>> e8f2747... featrue commit
     <router-view/>
   </div>
 </template>
@@ -19,6 +22,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+<<<<<<< HEAD
   margin-top: 60px;
+=======
+>>>>>>> e8f2747... featrue commit
 }
 </style>
